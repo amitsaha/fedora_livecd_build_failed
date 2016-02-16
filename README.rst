@@ -1,4 +1,5 @@
-## Did your Fedora Live CD build fail?
+Did your Fedora Live CD build fail?
+===================================
 
 
 Please see this blog post
