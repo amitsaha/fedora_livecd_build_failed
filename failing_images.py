@@ -7,7 +7,7 @@ import requests
 import sendgrid
 
 def main():
-    page = requests.get('http://koji.fedoraproject.org/koji/tasks?state=all&view=tree&method=livecd')
+    page = requests.get('http://koji.fedoraproject.org/koji/tasks?state=all&view=tree&method=livemedia')
     tree = html.fromstring(page.content)
 
     return tree.xpath('//a[@class="taskfailed"]')
